@@ -1,3 +1,7 @@
+/* font style */
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
+@import url('https://fonts.cdnfonts.com/css/miama');
+
 /* nav style */
 .heading1{
     font-size: 36px;
@@ -26,6 +30,7 @@
 .list1{
     display: flex;
     gap: 50px;
+    list-style: none;
 
 
 }
@@ -41,6 +46,171 @@
 /* header style */
 
 header{
-    background-color: rgb(48, 39, 39);
+    background :  #111111;;
+ 
 
 }
+
+/* Banner Style */
+
+.banner {
+        display: grid;
+        grid-gap: 5%; 
+        grid-template-columns: 1fr 1fr; 
+        max-width: 1060px;
+        width: 90%;
+        margin-left: auto; 
+        margin-right: auto;
+      }
+.banner-main{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: start; 
+    row-gap: 28px;
+}
+
+.banner-heading {
+    color: white;
+    font-size: 78px;
+    font-weight: 900;
+  }
+
+  .shape{
+ font-weight: 350px;
+ font-family: miama;
+ font-size: 1.4em;
+ line-height: 40px;
+
+  }
+
+  .banner-description{
+ color: rgba(255, 255, 255, 0.5);
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 24px;
+  letter-spacing: 0.5px;
+
+  }
+
+  .join {
+    display: inline-block;
+    background-color: #e6533c;
+    color: white;
+    padding: 16px 40px;
+    border-radius: 42px;
+    font-size: 18px;
+    font-weight: 600;
+    text-decoration: none;
+    white-space: nowrap;
+  }
+
+  .download {
+    display: inline-block;
+    color: white;
+    border: 2px solid white;
+    padding: 16px 40px;
+    border-radius: 42px;
+    font-size: 18px;
+    font-weight: 600;
+    text-decoration: none;
+    white-space: nowrap;
+  }
+
+  .banner-image {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    justify-content: flex-end;
+    position: relative;
+  }
+  .banner-image img {
+    width: 100%;
+    max-width: 349px;
+  }
+
+  .workout-videos-number {
+    background: rgba(255, 255, 255, 0.1);
+    border: 1px solid rgba(255, 255, 255, 0.1);
+    border-radius: 12px;
+    -webkit-backdrop-filter: blur(10px);
+    backdrop-filter: blur(10px);
+    padding: 16px 24px;
+    position: absolute;
+    top: 20%;
+    right: -10%;
+    transform: scale(1);
+    opacity: 1;
+    animation: animate 3s ease-in-out infinite;
+  }
+
+  .workout-videos-number:hover {
+    animation-play-state: paused;
+  }
+  
+  .workout-videos-number h2 {
+    color: #fff;
+    font-size: 40px;
+    font-weight: 900;
+    margin-bottom: 5px;
+  }
+  
+  .workout-videos-number p {
+    color: rgba(255, 255, 255, 0.65);
+    font-size: 13px;
+    font-weight: 400;
+    white-space: nowrap;
+  }
+  
+  .tutorial-videos-number {
+    display: flex;
+    align-items: center;
+    border-radius: 12px;
+    border: 1px solid rgba(255, 255, 255, 0.1);
+    background: rgba(48, 48, 48, 0.54);
+    -webkit-backdrop-filter: blur(10px);
+    backdrop-filter: blur(10px);
+    padding: 20px 23px;
+    gap: 12px;
+    position: absolute;
+    top: 75%;
+    left: 10%;
+  
+    transform: scale(1);
+    opacity: 1;
+    animation: animate 3s ease-in-out infinite;
+  }
+  
+  .tutorial-videos-number:hover {
+    animation-play-state: paused;
+  }
+  @keyframes animate {
+    0%,
+    10%,
+    90%,
+    100% {
+      transform: scale(1);
+      opacity: 1;
+    }
+    50% {
+      transform: scale(0.5);
+      opacity: 0;
+    }
+  }
+  
+  .tutorial-videos-number img {
+    width: 40px;
+  }
+  
+  .videotutorial{
+    color: #fafaf9;
+    font-size: 24px;
+    font-weight: 900;
+  }
+  
+  .video-tutorial {
+    color: rgba(239, 237, 232, 0.65);
+    font-size: 16px;
+    font-weight: 400;
+    white-space: nowrap;
+  }  
