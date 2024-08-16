@@ -510,3 +510,61 @@ border: none;
 
 /* footer */
 
+/* footer section start */
+
+.footer-last-paragraph {
+  text-align: center;
+  font-size: 18px;
+  color: gray;
+  margin: 30px;
+}
+.footer-last {
+  background: rgba(255, 255, 255, 0.1);
+  padding: 2px 70px;
+}
+.footer {
+  display: flex;
+  width: 100%;
+  background: rgba(255, 255, 255, 0.1);
+  gap: 5px;
+
+}
+.foot1 {
+  width: 30%;
+  padding: 1px 70px;
+}
+.foot1 h2 {
+  font-size: 60px;
+  font-style: italic;
+  font-weight: 800;
+  color: rgb(230, 83, 60);
+  margin-bottom: 10px;
+}
+.footer-first-paragraph{
+  color: gray;
+}
+.footer-2 {
+  width: 25%;
+  padding: 50px;
+}
+.footer-ul li {
+  list-style: none;
+  display: flex;
+  flex-direction: column;
+  margin: 15px auto;
+  color: gray;
+  font-size: 18px;
+  font-weight: 400;
+}
+.footer-h2 {
+  color: white;
+  font-size: 25px;
+  font-weight: 600;
+  margin-top: 7px;
+  padding-left: 38px;
+}
+
+
+
+
+/* footer section end */
