@@ -1,0 +1,18 @@
+@media screen and (max-width:576px) {
+
+    /* navbar */
+    .nav-page{
+        padding: 25px 20px;
+    }
+  .list1{
+    display: none;
+  }
+
+  
+    /* habit */
+
+    .box-items{
+        flex-direction: column;
+    }
+    }
+

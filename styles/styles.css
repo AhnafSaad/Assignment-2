@@ -31,11 +31,16 @@
     display: flex;
     gap: 50px;
     list-style: none;
+    border: 1px solid rgba(255, 255, 255, 0.1) ;
+    border-radius: 40px;
+    padding: 4px 4px;
+    width: 430px;
+    height: 46px;
+    flex-direction: row;
+    align-items: center;
     box-sizing: border-box;
-border: 1px solid rgba(255, 255, 255, 0.1);
-border-radius: 39px;
 
-
+    
 }
 
 .nav-btn {
@@ -44,6 +49,7 @@ border-radius: 39px;
     font-size: 18px;
     font-weight: 400;
   }
+  
 
 
 /* header style */
@@ -313,5 +319,126 @@ gap: 70px;
   color: rgba(255, 255, 255, 0.5);
   font-size: 15px;
   font-weight: 400;
+}
+
+/* BMI */
+
+.bmi-main {
+ 
+  background-color: #000000;
+  padding: 5px 30px;
+}
+
+
+.bmi-heading {
+  font-size: 3rem;
+margin-bottom: 5px;
+  color: white;
+  margin-left: 400px;
+}
+
+.bmi-heading-paragraph {
+  color: rgba(255, 255, 255, 0.5);
+  margin-left: 400px;
+}
+
+
+.bmi-bg {
+  background-color: #222222;
+  padding: 1rem 0;
+}
+
+.bmi-section {
+ max-width: 65.25rem;
+ margin: 1rem auto;
+}
+
+
+
+.bmi-main-section table {
+  margin-top: 1rem;
+  width: 100%;
+  height: 80%;
+  border-collapse: collapse;
+}
+
+
+
+.bmi-main-section {
+  justify-content: space-between;
+  margin: 0rem 1rem;
+  display: flex;
+}
+
+.bmi-chart-container {
+  width: 35%;
+}
+.bmi-chart-container td, th {
+padding: 1rem;
+}
+
+.bmi-calculator-container {
+
+  width: 60%;
+  gap: 35px;
+
+}
+
+.bmi-calculator-chart {
+ font-size: 1.5rem;
+ margin-bottom: 0.7rem;
+color: white;
+}
+.table-heading-bmi{
+  color: white;
+}
+
+.table-data-bmi{
+color: rgba(255, 255, 255, 0.5);
+}
+
+.bmi-calculator-container p {
+  margin-bottom: 2rem;
+  color: rgba(255, 255, 255, 0.5);
+}
+
+.bmi-section .bmi-calculator-container input, select {
+background: transparent;
+background-color: rgba(255, 255, 255, 0.1);
+padding: 1rem;
+border-radius: 0.5rem;
+border: none;
+
+&::placeholder {
+  color: rgba(255, 255, 255, 0.5);
+}
+
+}
+
+.bmi-cal {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 0.5rem;
+}
+
+.bmi-cal select {
+  color: rgba(255, 255, 255, 0.5);
+}
+
+.select-activity {
+  grid-column: span 2;
+}
+
+.cal-button {
+  padding: 1rem 3.5rem;
+  margin-top: 25px;
+}
+
+.bmi-calculator-heading{
+  color: white;
+}
+
+.bmi-btn{
+  gap: 5px;
 }
 
