@@ -1,7 +1,10 @@
 /* font style */
 @import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
 @import url('https://fonts.cdnfonts.com/css/miama');
-
+/* main style */
+.main-bg{
+  background-color: #000000;
+}
 /* nav style */
 .heading1{
     font-size: 36px;
@@ -441,4 +444,69 @@ border: none;
 .bmi-btn{
   gap: 5px;
 }
+
+/* meet our team */
+.staffs {
+  max-width: 1044px; 
+  margin: 48px auto; 
+  padding-bottom: 70px;
+}
+
+.staff-info {
+  text-align: center;
+  max-width: 70%;
+  margin: 0 auto;
+}
+
+.payel {
+  font-size: 48px; 
+  margin-bottom: 16px;
+  color: white;
+}
+
+.jhankar-vaiya{
+  color: rgba(255, 255, 255, 0.5);
+  margin-bottom: 48px;
+}
+
+.staff-img-gridder {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 16px;
+  background-color: #222;
+  border-radius: 16px; 
+  padding: 16px; 
+  margin-top: 16px; 
+}
+
+.members {
+  border-radius: 16px; 
+  position: relative;
+}
+
+.members img {
+  width: 100%;
+  height: 100%;
+  border-radius: 16px; 
+  object-fit: cover;
+}
+
+
+
+.saad {
+  position: absolute;
+  left: 16px; 
+  bottom: 16px; 
+  color: rgba(255, 255, 255, 0.5);
+ 
+}
+
+.akib{
+  position: absolute;
+  left: 16px;
+  bottom: 32px;
+  color: white;
+}
+
+/* footer */
 
