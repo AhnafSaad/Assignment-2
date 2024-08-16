@@ -415,13 +415,13 @@ border: none;
 
 }
 
-.bmi-cal {
+.bmi-calculator {
   display: grid;
   grid-template-columns: repeat(2, 1fr);
   gap: 0.5rem;
 }
 
-.bmi-cal select {
+.gender-select{
   color: rgba(255, 255, 255, 0.5);
 }
 

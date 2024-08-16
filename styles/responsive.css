@@ -8,6 +8,8 @@
     display: none;
   }
 
+/* banner */
+
   
     /* habit */
 
@@ -19,12 +21,16 @@
 
     /* run   */
     @media screen and (max-width: 576px) {
+        .run-extra {
+          padding: 20px 10px;
+        }
+      
         .run-extra-mile {
           flex-direction: column;
-          margin-left: 20px;
-          margin-right: 20px;
-          padding-left: 20px;
-          padding-right: 20px;
+          margin-left: 0;
+          margin-right: 0;
+          padding-left: 30px;
+          padding-right: 30px;
           gap: 20px;
         }
       
@@ -37,21 +43,23 @@
       
         .heading-extra1 {
           font-size: 32px;
-          text-align: center;
+          text-align: start;
         }
       
         .heading-extra-paragraph {
-          text-align: center;
+          text-align: start;
           font-size: 14px;
         }
       
-        .join {
+        .join1 {
           display: block;
           margin: 20px auto;
           width: 100%;
-          max-width: 200px;
+          max-width: 400px;
         }
       }
+      
+    
       /* run */
   
 
