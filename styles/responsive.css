@@ -1,16 +1,91 @@
 @media screen and (max-width:576px) {
 
-    /* navbar */
-    .nav-page{
-        padding: 25px 20px;
+    @media screen and (max-width: 576px) {
+        .list1 {
+            display: none; /
+            flex-direction: column; 
+            width: 100%;
+            position: absolute;
+            top: 80px; 
+            left: 0;
+            background-color: rgba(0, 0, 0, 0.8);
+            border: none;
+            border-radius: 0;
+            padding: 10px;
+            gap: 10px;
+        }
+    
+        .nav-page {
+            position: relative;
+        }
+    
+        .hamburger {
+            display: flex; 
+        }
+    
+    
+        .list1.active {
+            display: flex;
+        }
     }
-  .list1{
-    display: none;
-  }
 }
 /* banner */
 
-
+@media screen and (max-width: 576px) {
+    .banner {
+      grid-template-columns: 1fr;
+      text-align: left;
+    }
+  
+    .banner-main {
+      align-items: flex-start;
+    }
+  
+    .banner-heading {
+        font-size: 48px; 
+        text-align: left; 
+    padding-left: 0;}
+        
+    
+  
+    .banner-btn {
+      display: flex;
+      flex-direction: row;
+      justify-content: center;
+      gap: 10px; 
+      margin-top: 20px;
+      margin-right: 10px;
+    }
+  
+    .banner-image {
+      align-items: center;
+      justify-content: center;
+      margin-top: 20px; 
+    }
+  
+    .banner-image img {
+      max-width: 250px; 
+    }
+  
+    .workout-maisha {
+      top: 10%;
+      right: 0;
+    }
+  
+    .tutorial-maisha {
+      top: 65%;
+      left: 5%;
+    }
+  
+    .videotutorial {
+      font-size: 20px; 
+    }
+  
+    .video-tutorial {
+      font-size: 14px; /
+    }
+  }
+  
 
   
     /* habit */
@@ -90,6 +165,7 @@
         .footer {
           flex-direction: column;
           align-items: flex-start;
+          padding-left: 10px;
         }
         .footer1, .footer-2 {
           width: 100%;
@@ -115,14 +191,7 @@
        padding-left: 23px;
         }
 
-        .footer-h3{
-           color: rgb(230, 83, 60);
-           font-style: italic;
-           font-size: 40px;
-           padding-left: 20px;
-          text-align: left;
-           
-        }
+       
         .footer-first-paragraph{
             padding-left: 40px;
             font-size: 18px;
@@ -136,6 +205,12 @@
             padding-left: 10px;
             font-size: 18px;
             align-self: self-start;
+        }
+
+        .footer-saad {
+            text-align: left; 
+            padding-left: 0; 
+            margin-left: 0; 
         }
       }
 

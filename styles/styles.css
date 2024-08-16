@@ -53,7 +53,20 @@
     font-weight: 400;
   }
   
+  .hamburger {
+    display: none; 
+    flex-direction: column;
+    cursor: pointer;
+    gap: 5px;
+}
 
+.hamburger span {
+    display: block;
+    width: 25px;
+    height: 3px;
+    background-color: white;
+    border-radius: 5px;
+}
 
 /* header style */
 
@@ -141,7 +154,7 @@ header{
     max-width: 349px;
   }
 
-  .workout-videos-number {
+  .workout-maisha {
     background: rgba(255, 255, 255, 0.1);
     border: 1px solid rgba(255, 255, 255, 0.1);
     border-radius: 12px;
@@ -156,25 +169,25 @@ header{
     animation: animate 3s ease-in-out infinite;
   }
 
-  .workout-videos-number:hover {
+  .workout-maisha:hover {
     animation-play-state: paused;
   }
   
-  .workout-videos-number h2 {
+  .workout-maisha h2 {
     color: #fff;
     font-size: 40px;
     font-weight: 900;
     margin-bottom: 5px;
   }
   
-  .workout-videos-number p {
+  .workout-maisha p {
     color: rgba(255, 255, 255, 0.65);
     font-size: 13px;
     font-weight: 400;
     white-space: nowrap;
   }
   
-  .tutorial-videos-number {
+  .tutorial-maisha {
     display: flex;
     align-items: center;
     border-radius: 12px;
@@ -193,7 +206,7 @@ header{
     animation: animate 3s ease-in-out infinite;
   }
   
-  .tutorial-videos-number:hover {
+  .tutorial-maisha:hover {
     animation-play-state: paused;
   }
   @keyframes animate {
@@ -210,7 +223,7 @@ header{
     }
   }
   
-  .tutorial-videos-number img {
+  .tutorial-maisha img {
     width: 40px;
   }
   
@@ -529,7 +542,7 @@ border: none;
   gap: 5px;
 
 }
-.foot1 {
+.footer1 {
   width: 30%;
   padding: 1px 70px;
 }
